@@ -18,11 +18,11 @@
 	String[] hobby = request.getParameterValues("hobby");
 	String major = request.getParameter("major");
 %>
-이름 : <%=name %><br/>
-아이디 : <%=id %><br/>
-비밀번호 : <%=pw %><br/>
-취미 : <%=Arrays.toString(hobby) %><br/>
-전공 : <%=major %><br/>
+이름 : ${name }<br/>
+아이디 : ${id }<br/>
+비밀번호 : ${pw }<br/>
+취미 : ${Arrays.toString(hobby)}<br/>
+전공 : ${major}<br/>
 </body>
 </html>
 
