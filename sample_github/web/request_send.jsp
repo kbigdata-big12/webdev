@@ -7,12 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>include01.jsp 페이지 입니다.</h2>
-	<jsp:include page="include02.jsp"/>
-	<h2>다시 include01.jsp 페이지 입니다.</h2>
+<%
+	int age = Integer.parseInt(request.getParameter("age"));
+	if (age >=20){
+		response.sendRedirect("pass.jsp");
+	}else{
+		response.sendRedirect("ng.jsp");
+	}
+%>
 </body>
 </html>
-
 
 
 

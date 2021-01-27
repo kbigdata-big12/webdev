@@ -7,16 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>include01.jsp 페이지 입니다.</h2>
-	<jsp:include page="include02.jsp"/>
-	<h2>다시 include01.jsp 페이지 입니다.</h2>
+	<h1>forward_param.jsp 페이지입니다.</h1>
+	아이디 : ${param.id }
+	비밀번호 : ${param.pw }
 </body>
 </html>
-
-
-
-
-
-
 
 

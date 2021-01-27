@@ -7,15 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>include01.jsp 페이지 입니다.</h2>
-	<jsp:include page="include02.jsp"/>
-	<h2>다시 include01.jsp 페이지 입니다.</h2>
+<form action="request_send.jsp" method="get">
+	당신의 나이는 : <input type="text" name="age" size="5">
+	<input type="submit" value="전송">
+</form>
 </body>
 </html>
-
-
-
-
 
 
 
